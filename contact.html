@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Donaldson Plumbing & Heating</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;900&family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container">
+    <div class="header-content">
+      <div class="logo">
+        <div class="logo-icon">D</div>
+        <div class="logo-text">
+          <span class="logo-name">Donaldson</span>
+          <span class="logo-tagline">Plumbing & Heating</span>
+        </div>
+      </div>
+      
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link nav-link-cta active">Get a Quote</a>
+      </nav>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="hero-background"></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <h1 class="page-title">Get in Touch</h1>
+      <p class="page-subtitle">We're here to help with all your heating, cooling, and plumbing needs.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-layout">
+      
+      <div class="contact-info">
+        <h2 class="contact-heading">Contact Information</h2>
+        <p class="contact-intro">Reach out to us for service requests, emergency support, or general inquiries. We're always ready to help.</p>
+        
+        <div class="contact-methods">
+          <div class="contact-method">
+            <div class="method-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="method-content">
+              <h3>Phone</h3>
+              <a href="tel:1-555-555-5555" class="method-link">1-555-555-5555</a>
+              <p>Available 24/7 for emergencies</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="method-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="method-content">
+              <h3>Service Area</h3>
+              <p class="method-text">Kingston & Surrounding Communities</p>
+              <p>Proudly serving local homes and businesses</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="method-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+            </div>
+            <div class="method-content">
+              <h3>Business Hours</h3>
+              <p class="method-text">Mon-Fri: 7:00 AM - 7:00 PM</p>
+              <p>Emergency service available 24/7</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="emergency-callout">
+          <div class="callout-icon">⚠️</div>
+          <div class="callout-content">
+            <h4>Have an Emergency?</h4>
+            <p>Don't wait—call us immediately for urgent heating, cooling, or plumbing issues.</p>
+            <a href="tel:1-555-555-5555" class="emergency-link">1-555-555-5555</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form-wrapper">
+        <h2 class="form-heading">Request a Quote</h2>
+        <p class="form-intro">Fill out the form below and we'll get back to you within 24 hours.</p>
+        
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name" class="form-label">Full Name *</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address *</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-input">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="service" class="form-label">Service Needed *</label>
+            <select id="service" name="service" class="form-select" required>
+              <option value="">Select a service...</option>
+              <option value="heating">Heating</option>
+              <option value="cooling">Cooling</option>
+              <option value="plumbing">Plumbing</option>
+              <option value="emergency">Emergency Service</option>
+              <option value="maintenance">Maintenance</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message" class="form-label">Describe Your Issue *</label>
+            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label class="checkbox-label">
+              <input type="checkbox" name="urgent" class="form-checkbox">
+              <span>This is an urgent matter</span>
+            </label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-large btn-full">Send Message</button>
+          
+          <p class="form-note">* Required fields. We respect your privacy and will never share your information.</p>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="container">
+    <div class="map-placeholder">
+      <div class="map-content">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+        <h3>Serving Kingston & Surrounding Areas</h3>
+        <p>Local service you can trust, right in your neighborhood</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <div class="logo-icon">D</div>
+          <div class="logo-text">
+            <span class="logo-name">Donaldson</span>
+            <span class="logo-tagline">Plumbing & Heating</span>
+          </div>
+        </div>
+        <p class="footer-description">Professional heating, cooling, and plumbing services for Kingston and surrounding communities.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4 class="footer-heading">Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#heating">Heating</a></li>
+          <li><a href="services.html#cooling">Cooling</a></li>
+          <li><a href="services.html#plumbing">Plumbing</a></li>
+          <li><a href="services.html#emergency">Emergency</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4 class="footer-heading">Get in Touch</h4>
+        <ul class="footer-contact">
+          <li><a href="tel:1-555-555-5555">1-555-555-5555</a></li>
+          <li>Kingston & Surrounding Areas</li>
+          <li>24/7 Emergency Service</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Donaldson Plumbing & Heating. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
