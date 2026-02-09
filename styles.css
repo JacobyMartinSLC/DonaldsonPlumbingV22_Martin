@@ -180,7 +180,11 @@ button {
   cursor: pointer;
   border: 2px solid transparent;
 }
-
+.logo-image {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
 .btn-primary {
   background: var(--color-accent);
   color: var(--color-text-inverse);
@@ -934,6 +938,18 @@ button {
 /* ===================================
    SERVICES DETAIL PAGE
    =================================== */
+.services-hero {
+  background-image: url('images/services-hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.services-hero .page-title,
+.services-hero .page-subtitle {
+  color: var(--color-primary-dark);
+}
+
+
 .services-detail-section {
   padding: var(--space-3xl) 0;
 }
@@ -1068,6 +1084,12 @@ button {
 /* ===================================
    ABOUT PAGE
    =================================== */
+.about-hero {
+  background-image: url('images/about-hero.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
 .about-story {
   padding: var(--space-3xl) 0;
   background: var(--color-bg-white);
